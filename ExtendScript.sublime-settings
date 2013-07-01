@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"jsx",
+		"jsxinc"
+	],
+	"translate_tabs_to_spaces": true,
+	"auto_complete": true
+}
