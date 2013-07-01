@@ -78,7 +78,7 @@ To get all available classes  we should take a look into these files:
 ###Misc Links  
 
 - if you name your syntax definition only .json It is important to rename the .plist file to .tmlanguage or it wont work. [Info found here](http://stackoverflow.com/questions/15221150/custom-syntax-highlighting-in-sublime-text-2)  
-- 
+
 #License  
 
 Copyright (c)  2013 Nik "dokluch" Ska, Fabian "fabiantheblind" Morón Zirfas  
