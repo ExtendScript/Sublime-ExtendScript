@@ -1,0 +1,21 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+${1:simple}();
+function ${1:simple}(){
+
+app.beginUndoGroup("${2:simple}");
+var curComp = app.project.activeItem;
+   if (!curComp || !(curComp instanceof CompItem)){
+        alert("noComp");
+        return;
+    };
+app.endUndoGroup();
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>function AE template</tabTrigger>
+  <description>A simple AE function</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx</scope>
+</snippet>

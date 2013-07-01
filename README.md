@@ -1,14 +1,14 @@
 Sublime-ExtendScript
 ====================
 
-This is a ST2 (ST3?) Adobe ExtendScript Bundle. It is right now only basic JavaScript definition taken from std JavaScript bundle delivered with Sublime Text. 
+This is a ST2 (ST3?) Adobe ExtendScript Bundle. It is right now only basic JavaScript definition included from source.js. 
 
 ##Basics
 - Development is done via [AAAPackageDev](https://github.com/SublimeText/AAAPackageDev)  
 - Basics on [Syntax definition help is here](http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html)  
-- To get the JavaScript.tmLanguage file to .json use [AAAPackageDev](https://github.com/SublimeText/AAAPackageDev#json-and-property-list-conversion)  
+- To get the JavaScript.tmLanguage file to .json-tmLanguage use [AAAPackageDev](https://github.com/SublimeText/AAAPackageDev#json-and-property-list-conversion)  
 - The ExtendScript.json file has to be converted to the ExtendScript.plist file using AAAPackageDev [plist\_to\_json](https://github.com/SublimeText/AAAPackageDev#commands-1)  
-- It is important to rename the .plist file to .tmlanguage or it wont work. [Info found here](http://stackoverflow.com/questions/15221150/custom-syntax-highlighting-in-sublime-text-2)
+- It is important to rename the .plist file to .tmlanguage or it wont work. [Info found here](http://stackoverflow.com/questions/15221150/custom-syntax-highlighting-in-sublime-text-2) UPDATE: if you name the language definition .json-tmLanguage it gets converted to a .tmLanguage directly without need for renaming the file manually.
 
 So the basic layout is there. Now we need to create lots of snippets and add definitions like ScriptUI and File stuff.  
 

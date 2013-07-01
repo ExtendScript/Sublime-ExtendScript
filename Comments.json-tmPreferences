@@ -1,0 +1,22 @@
+{
+  "name": "Comments",
+  "scope": "source.jsx",
+
+    "settings": {
+        "shellVariables": [
+            {
+                "name": "TM_COMMENT_START", 
+                "value": "// "
+            }, 
+            {
+                "name": "TM_COMMENT_START_2", 
+                "value": "/*"
+            }, 
+            {
+                "name": "TM_COMMENT_END_2", 
+                "value": "*/"
+            }
+        ]
+    },
+  "uuid": "50e1436c-806a-4571-8ab1-93a4fab7f23b"
+}

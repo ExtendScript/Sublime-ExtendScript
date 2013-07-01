@@ -1,0 +1,94 @@
+function = (){
+  var win = 
+   = win.add("button")
+}
+
+while(true){
+  //body
+}
+
+var file = File("path/to/file.txt");
+var folder = Folder("path/to/folder");
+
+// this is script ui
+if (thing instanceof Bounds){}
+if (thing instanceof Button){}
+if (thing instanceof Checkbox){}
+if (thing instanceof Dimension){}
+if (thing instanceof DrawState){}
+if (thing instanceof DropDownList){}
+if (thing instanceof EditText){}
+if (thing instanceof FlashPlayer){}
+if (thing instanceof Group){}
+if (thing instanceof IconButton){}
+if (thing instanceof LayoutManager){}
+if (thing instanceof ListBox){}
+if (thing instanceof ListItem){}
+if (thing instanceof Panel){}
+if (thing instanceof Point){}
+if (thing instanceof Progressbar){}
+if (thing instanceof RadioButton){}
+if (thing instanceof ScriptUI){}
+if (thing instanceof ScriptUIBrush){}
+if (thing instanceof ScriptUIFont){}
+if (thing instanceof ScriptUIGraphics){}
+if (thing instanceof ScriptUIImage){}
+if (thing instanceof ScriptUIPath){}
+if (thing instanceof ScriptUIPen){}
+if (thing instanceof Scrollbar){}
+if (thing instanceof Slider){}
+if (thing instanceof StaticText){}
+if (thing instanceof TreeView){}
+if (thing instanceof UIEvent){}
+if (thing instanceof Window){}
+
+
+// this is AE
+Application
+AVLayer
+BlendingMode
+CloseOptions
+CompItem
+FieldSeparationType
+FileSource
+FolderItem
+FootageItem
+ImportAsType
+ImportOptions
+ItemCollection
+KeyframeEase
+KeyframeInterpolationType 
+Language
+LayerCollection
+LayerQuality
+LogType
+MarkerValue
+MaskMode
+MaskMotionBlur
+MaskPropertyGroup
+OMCollection
+OutputModule
+PlaceholderSource
+PostRenderAction
+Project
+Property
+PropertyGroup
+PropertyType
+PropertyValueType
+PulldownPhase
+PulldownMethod
+RenderQueue
+RenderQueueItem
+RQItemCollection
+RQItemStatus
+Settings
+Shape
+SolidSource
+System
+TextDocument
+TimecodeBaseType
+TimecodeDisplayType 
+TimecodeFilmType
+TrackMatteType
+AutoOrientType
+FrameBlendingType
