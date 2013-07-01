@@ -16,6 +16,54 @@ So the basic layout is there. Now we need to create lots of snippets and add def
 - jsx  
 - jsxinc  
 
+##Object Model Viewer XML  
+To get all available classes  we should take a look into these files:
+
+###ESTK is Build on JSX could be usefull  
+
+- /Applications/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvData.jsx  
+- /Applications/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvUI.jsx  
+- /Applications/Utilities/Adobe Utilities-CS5.5.localized/ExtendScript Toolkit CS5.5/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvData.jsx  
+- /Applications/Utilities/Adobe Utilities-CS5.5.localized/ExtendScript Toolkit CS5.5/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvUI.jsx  
+- /Applications/Utilities/Adobe Utilities-CS5.localized/ExtendScript Toolkit CS5/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvData.jsx  
+- /Applications/Utilities/Adobe Utilities-CS5.localized/ExtendScript Toolkit CS5/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvUI.jsx  
+- /Applications/Utilities/Adobe Utilities-CS6.localized/ExtendScript Toolkit CS6/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvData.jsx  
+- /Applications/Utilities/Adobe Utilities-CS6.localized/ExtendScript Toolkit CS6/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvUI.jsx  
+- /Applications/Utilities/Adobe Utilities.localized/ExtendScript Toolkit CS4/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvData.jsx  
+- /Applications/Utilities/Adobe Utilities.localized/ExtendScript Toolkit CS4/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvUI.jsx  
+
+###Others  
+- /Library/Application Support/Adobe/Scripting Dictionaries CC/Illustrator/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS4/Bridge/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS5/Bridge/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS5/Device Central/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS5.5/Bridge/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS5.5/Device Central/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS6/Bridge/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS6/Illustrator/omv.xml  
+- /Library/Application Support/Adobe/Scripting Dictionaries CS6/photoshop/omv.xml  
+
+###InDesign  
+
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.5/omv$indesign-7.0$3.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.5/omv$indesign-7.0$4.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.5/omv$indesign-7.0$5.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.5/omv$indesign-7.0$6.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.5/omv$indesign-7.0$7.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-7.5$3.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-7.5$4.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-7.5$5.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-7.5$6.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-7.5$7.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-7.5$7.5.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$3.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$4.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$5.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$6.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$7.0.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$7.5.xml
+- /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$8.0.xml
+
 ##License  
 
 Copyright (c)  2013 Nik "dokluch" Ska, Fabian "fabiantheblind" Morón Zirfas  
