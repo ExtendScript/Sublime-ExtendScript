@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+addComp(${1:name}, ${2:width}, ${3:height}, ${4:pixelAspect}, ${5:duration}, ${6:frameRate})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>addComp</tabTrigger>
+  <description>add composition to project app.project.items.addComp(name, width, height, pixelAspect, duration, frameRate)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.jsx</scope>
+</snippet>
