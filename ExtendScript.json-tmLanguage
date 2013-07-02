@@ -1,8 +1,8 @@
 {
-  "name": "Adobe ExtendScript",
+  "name": "ExtendScript",
   "scopeName": "source.jsx",
   "fileTypes": [
-    "jsx"
+    "jsx","jsxinc"
   ],
   "patterns": [
       {

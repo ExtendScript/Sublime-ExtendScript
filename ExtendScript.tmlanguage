@@ -5,9 +5,10 @@
 	<key>fileTypes</key>
 	<array>
 		<string>jsx</string>
+		<string>jsxinc</string>
 	</array>
 	<key>name</key>
-	<string>Adobe ExtendScript</string>
+	<string>ExtendScript</string>
 	<key>patterns</key>
 	<array>
 		<dict>

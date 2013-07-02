@@ -1,9 +1,0 @@
-{ "name": "Syntax Name",
-  "scopeName": "source.jsxinc",
-  "fileTypes": ["jsxinc"],
-  "patterns": [
-  {"comment": "Includes and external syntax definition.",
-    "include": "source.jsx"}
-  ],
-  "uuid": "e87f717a-2ca3-4bae-915e-9d8d681be4dd"
-}
