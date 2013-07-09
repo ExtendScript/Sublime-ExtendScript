@@ -16,6 +16,7 @@ Clone the repo to (Mac) /Users/[USERNAME]/Library/Application Support/Sublime Te
 
 
 #Development  
+##For starters the development should be done in a fork and applied to the original repo via pull request.  
 
 ##Basics
 - Basics on [Syntax definition help is here](http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html)  
