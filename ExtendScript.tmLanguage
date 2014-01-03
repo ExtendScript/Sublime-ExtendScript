@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>jsx</string>
+		<string>jsxinc</string>
+	</array>
+	<key>name</key>
+	<string>ExtendScript</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Includes and external syntax definition.</string>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This is js core</string>
+			<key>match</key>
+			<string>\b(File|Folder|$)\b</string>
+			<key>name</key>
+			<string>support.class.jsx</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This is js script ui</string>
+			<key>match</key>
+			<string>\b(Bounds|Button|Checkbox|Dimension|DrawState|DropDownList|EditText|FlashPlayer|Group|IconButton|LayoutManager|ListBox|ListItem|Panel|Point|Progressbar|RadioButton|ScriptUI|ScriptUIBrush|ScriptUIFont|ScriptUIGraphics|ScriptUIImage|ScriptUIPath|ScriptUIPen|Scrollbar|Slider|StaticText|TreeView|UIEvent|Window)\b</string>
+			<key>name</key>
+			<string>support.class.jsx</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>this is AE</string>
+			<key>match</key>
+			<string>\b(Application|AVLayer|BlendingMode|CloseOptions|CompItem|FieldSeparationType|FileSource|FolderItem|FootageItem|ImportAsType|ImportOptions|ItemCollection|KeyframeEase|KeyframeInterpolationType|Language|LayerCollection|LayerQuality|LogType|MarkerValue|MaskMode|MaskMotionBlur|MaskPropertyGroup|OMCollection|OutputModule|PlaceholderSource|PostRenderAction|Project|Property|PropertyGroup|PropertyType|PropertyValueType|PulldownPhase|PulldownMethod|RenderQueue|RenderQueueItem|RQItemCollection|RQItemStatus|Settings|Shape|SolidSource|System|TextDocument|TimecodeBaseType|TimecodeDisplayType|TimecodeFilmType|TrackMatteType|AutoOrientType|FrameBlendingType)\b</string>
+			<key>name</key>
+			<string>support.class.jsx</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.jsx</string>
+	<key>uuid</key>
+	<string>7cafa000-e234-4f57-bb01-7cb3a8f3b963</string>
+</dict>
+</plist>
