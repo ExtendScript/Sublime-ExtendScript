@@ -1,2 +1,4 @@
 .DS_Store
 *.cache
+node_modules
+*omv$indesign-10.064$10.0*
