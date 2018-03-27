@@ -76,6 +76,10 @@ To get all available classes  we should take a look into these files:
 - /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$7.5.xml
 - /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$8.0.xml
 
+###Todo's  
+
+- add auto completion [see this](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/completions.html)  
+
 ###Misc Links  
 
 - if you name your syntax definition only .json It is important to rename the .plist file to .tmlanguage or it wont work. [Info found here](http://stackoverflow.com/questions/15221150/custom-syntax-highlighting-in-sublime-text-2)  
