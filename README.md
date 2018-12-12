@@ -1,24 +1,32 @@
 Sublime-ExtendScript
 ====================
 
-This is a ST2 (ST3?) Adobe ExtendScript Bundle still in development
+Adobe ExtendScript Bundle for Sublime Texts 2/3.
+
+> Still in development
+
 Version 0.1  
 
 
-##Associated filetypes
+## Associated filetypes
 - jsx  
 - jsxinc  
 
-##Installation  
-Clone the repo to (Mac) /Users/[USERNAME]/Library/Application Support/Sublime Text 2/Packages
+## Installation  
+Clone the repo to your _Sublime Text_ `Packages` Folder 
 
-    git clone https://github.com/fabiantheblind/Sublime-ExtendScript.git  
+Mac Sublime 2:
 
+    git clone https://github.com/ExtendScript/Sublime-ExtendScript.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Sublime-ExtendScript
 
-#Development  
-##For starters the development should be done in a fork and applied to the original repo via pull request.  
+Mac Sublime 3:
 
-##Basics
+    git clone https://github.com/ExtendScript/Sublime-ExtendScript.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Sublime-ExtendScript
+
+# Development  
+For starters the development should be done in a fork and applied to the original repo via pull request.  
+
+## Basics
 - Basics on [Syntax definition help is here](http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html)  
 - Development is done via [AAAPackageDev](https://github.com/SublimeText/AAAPackageDev)  
 - To get the JavaScript.tmLanguage file to .json-tmLanguage use [AAAPackageDev](https://github.com/SublimeText/AAAPackageDev#json-and-property-list-conversion)  
@@ -26,12 +34,12 @@ Clone the repo to (Mac) /Users/[USERNAME]/Library/Application Support/Sublime Te
 
 So the basic layout is there. Now we need to create lots of snippets and add definitions like ScriptUI and File stuff.  
 
-##Recources  
+## Recources  
 
-##Object Model Viewer XML  
+## Object Model Viewer XML  
 To get all available classes  we should take a look into these files:
 
-###ESTK is Build on JSX could be usefull  
+### ESTK is Build on JSX could be usefull  
 
 - /Applications/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvData.jsx  
 - /Applications/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvUI.jsx  
@@ -44,7 +52,7 @@ To get all available classes  we should take a look into these files:
 - /Applications/Utilities/Adobe Utilities.localized/ExtendScript Toolkit CS4/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvData.jsx  
 - /Applications/Utilities/Adobe Utilities.localized/ExtendScript Toolkit CS4/ExtendScript Toolkit.app/Contents/SharedSupport/Required/35omvUI.jsx  
 
-###Others  
+### Others  
 - /Library/Application Support/Adobe/Scripting Dictionaries CC/Illustrator/omv.xml  
 - /Library/Application Support/Adobe/Scripting Dictionaries CS4/Bridge/omv.xml  
 - /Library/Application Support/Adobe/Scripting Dictionaries CS5/Bridge/omv.xml  
@@ -55,7 +63,7 @@ To get all available classes  we should take a look into these files:
 - /Library/Application Support/Adobe/Scripting Dictionaries CS6/Illustrator/omv.xml  
 - /Library/Application Support/Adobe/Scripting Dictionaries CS6/photoshop/omv.xml  
 
-###InDesign  
+### InDesign  
 
 - /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.5/omv$indesign-7.0$3.0.xml
 - /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.5/omv$indesign-7.0$4.0.xml
@@ -76,15 +84,15 @@ To get all available classes  we should take a look into these files:
 - /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$7.5.xml
 - /Users/[USERNAME]/Library/Preferences/ExtendScript Toolkit/3.8/omv$indesign-8.0$8.0.xml
 
-###Todo's  
+### Todo's  
 
 - add auto completion [see this](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/completions.html)  
 
-###Misc Links  
+### Misc Links  
 
 - if you name your syntax definition only .json It is important to rename the .plist file to .tmlanguage or it wont work. [Info found here](http://stackoverflow.com/questions/15221150/custom-syntax-highlighting-in-sublime-text-2)  
 
-#License  
+# License  
 
 Copyright (c)  2013 Nik "dokluch" Ska, Fabian "fabiantheblind" Morón Zirfas  
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software  without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to  permit persons to whom the Software is furnished to do so, subject to the following conditions:  
@@ -92,4 +100,3 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A  PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF  CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
 
 see also http://www.opensource.org/licenses/mit-license.php
-
